@@ -1,6 +1,7 @@
 require './lib/user.rb'
 require './lib/event.rb'
 require './lib/event_creator.rb'
+require './calendar_displayer.rb'
 
 require 'pry'
 

@@ -1,7 +1,5 @@
 require './lib/event.rb'
 
-require 'pry'
-
 
 class EventCreator
 
