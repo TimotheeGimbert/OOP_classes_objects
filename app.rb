@@ -1,12 +1,14 @@
 require './lib/user.rb'
 require './lib/event.rb'
+require './lib/event_creator.rb'
+
 require 'pry'
 
 
 event1 = Event.new(
+  "The Great 9 Opening",
   "2021-10-18 16:45",
   30,
-  "The Great 9 Opening",
   ["julie@free.fr", "dudu@gmail.com"]
 )
 

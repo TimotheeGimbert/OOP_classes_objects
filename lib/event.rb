@@ -9,10 +9,10 @@ class Event
   attr_accessor :title
   @@attendees = Array.new
 
-  def initialize(start_date, duration, title, attendees_array)
+  def initialize(title, start_date, duration, attendees_array)
+    @title = title
     @start_date = Time.parse(start_date)
     @duration = duration
-    @title = title
     @@attendees = attendees_array
   end
 
