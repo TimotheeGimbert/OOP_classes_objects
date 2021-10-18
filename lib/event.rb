@@ -1,6 +1,7 @@
 require 'pry'
 require 'time'
 
+
 class Event
 
   attr_accessor :start_date
@@ -35,5 +36,3 @@ class Event
   end
 
 end
-
-binding.pry
