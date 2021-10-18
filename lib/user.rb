@@ -18,4 +18,8 @@ class User
     @@users.select {|user| email == user.email}
   end
 
+  def to_s
+    return "#{@email} (#{@age} ans)"
+  end
+
 end
